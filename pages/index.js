@@ -4,6 +4,8 @@ import Image from "next/image"
 import Business from "../components/Business"
 import Header from "../components/Header"
 import Hero from "../components/Hero"
+import Bta from "../components/Bta"
+
 
 import bizz1 from '../public/bizz1.png'
 import sportteamup from '../public/spot-team-up.png'
@@ -28,6 +30,9 @@ export default function Home() {
      <Business image1={bizz4} image2={workflow} 
      title={"Benefit from a global ecosystem of creator's tools"} 
      desc={"Get inspiration from thousands of community-made templates, integrations, and events. You'll never want for resources or support."} />
+
+    <Bta title="Get Notion free"/>
+
     </div>
     
   )

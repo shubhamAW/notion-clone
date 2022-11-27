@@ -9,10 +9,10 @@ const Hero = () => {
    <div className='flex flex-col md:flex-row mt-5 justify-between  p-7 '>
         <Image src={heroimg} width={350} height={350}  alt='image'className='md:hidden'/>
         {/* left side text div */}
-        <div className=' basis-2/3 space-y-2 p-5 bg-red-300'>
+        <div className=' basis-2/3 space-y-2 p-5 '>
             <h1 className='text-6xl font-bold'>One workSpace .<br/> Every Team.</h1>
             <p>Were more than or table customization <br/> Notion to work the way you do.</p>
-            <button className='bg-red-200 border rounded-xl p-2 '>Get Notion Free</button>
+            <button className='border bg-red-500 px-4 py-2 rounded-md font-bold text-white hover:shadow-xl'>Get Notion Free</button>
             <p>Trusted by team at </p>
             <div className='flex flex-wrap'>
                 <div>hello</div>
