@@ -18,7 +18,7 @@ import bizz4 from '../public/bizz4.png'
 
 export default function Home() {
   return (
-    <div className='px-12  py-3  '>
+    <div className='md:px-12  py-3  '>
       <Header/>
       <Hero/>
      <Business image1={bizz1} image2={sportteamup} title={"Team up without the chaos"} desc={'Connect your teams, projects, and docs in Notion — so you can bust silos and move as one.'} />
