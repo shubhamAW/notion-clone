@@ -14,7 +14,8 @@ import bizz2 from '../public/bizz2.png'
 import bizz3 from '../public/bizz3.png'
 import workflow  from '../public/workflow.png'
 import bizz4 from '../public/bizz4.png'
-
+import blocks from '../public/blocks.png'
+import bookshelf from '../public/bookshelf-spot.png'
 
 export default function Home() {
   return (
@@ -27,12 +28,14 @@ export default function Home() {
 
      <Business image1={bizz3} image2={workflow} title={"Build the workflow you want"} desc={"Customize Notion to make it work the way you want it to. Just drag and drop to craft the dashboard, website, doc, or system you need."} />
 
+      <br className="border-b-8"/>
+
      <Business image1={bizz4} image2={workflow} 
      title={"Benefit from a global ecosystem of creator's tools"} 
      desc={"Get inspiration from thousands of community-made templates, integrations, and events. You'll never want for resources or support."} />
-
-    <Bta title="Get Notion free"/>
-    <Bta title="See all Templates"/>
+    <br className="border-b-2"/>
+    <Bta title="Built for endless uses. Across all teams." desc="Notion solves problems common and unique to<br/> every team. These are just a few." btn="Get Notion free" image={bookshelf}/>
+    <Bta title="Start with a template.Modify it however you need." desc="Choose from thousands of free, pre-built setups — for work and life." btn="See all Templates" image={blocks} dark='true'/>
 
     </div>
     
