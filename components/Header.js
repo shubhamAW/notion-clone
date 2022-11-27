@@ -4,7 +4,7 @@ import logo from '../public/logo.svg'
 
 const Header = () => {
   return (
-    <div className='p-2 sticky top-0 w-auto h-16 shadow-sm flex  items-center justify-between px-4'>
+    <div className='p-2 sticky top-0 w-auto h-16 shadow-sm flex  items-center justify-between'>
         {/* logo */}
         <div className='flex space-x-2 items-center font-semibold tracking-tight text-xl cursor-pointer'>
         <Image src={logo} alt='logo' width={30} height={50} className="cursor-pointer " />

@@ -6,11 +6,11 @@ import heroimg from '../public/heroimg.png'
 
 const Hero = () => {
   return (
-   <div className='flex flex-col md:flex-row mt-5 justify-between  p-7 '>
+   <div className='flex flex-col md:flex-row mt-5 justify-between '>
         <Image src={heroimg} width={350} height={350}  alt='image'className='md:hidden'/>
         {/* left side text div */}
         <div className=' basis-2/3 space-y-2 p-5 '>
-            <h1 className='text-6xl font-bold'>One workSpace .<br/> Every Team.</h1>
+            <h1 className='text-4xl md:text-6xl font-bold'>One workSpace.<br/>Every Team.</h1>
             <p>Were more than or table customization <br/> Notion to work the way you do.</p>
             <button className='border bg-red-500 px-4 py-2 rounded-md font-bold text-white hover:shadow-xl'>Get Notion Free</button>
             <p>Trusted by team at </p>
