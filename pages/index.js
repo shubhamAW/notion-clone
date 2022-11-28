@@ -16,6 +16,7 @@ import workflow  from '../public/workflow.png'
 import bizz4 from '../public/bizz4.png'
 import blocks from '../public/blocks.png'
 import bookshelf from '../public/bookshelf-spot.png'
+import TryNotion from "../components/TryNotion"
 
 export default function Home() {
   return (
@@ -35,8 +36,12 @@ export default function Home() {
      desc={"Get inspiration from thousands of community-made templates, integrations, and events. You'll never want for resources or support."} />
     <br className="border-b-2"/>
     <Bta title="Built for endless uses. Across all teams." desc="Notion solves problems common and unique to<br/> every team. These are just a few." btn="Get Notion free" image={bookshelf}/>
+
+    <TryNotion/>
+
     <Bta title="Start with a template.Modify it however you need." desc="Choose from thousands of free, pre-built setups — for work and life." btn="See all Templates" image={blocks} dark='true'/>
 
+    
     </div>
     
   )
