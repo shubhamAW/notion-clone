@@ -5,7 +5,7 @@ import Business from "../components/Business"
 import Header from "../components/Header"
 import Hero from "../components/Hero"
 import Bta from "../components/Bta"
-
+import Feedback from '../components/Feedback'
 
 import bizz1 from '../public/bizz1.png'
 import sportteamup from '../public/spot-team-up.png'
@@ -17,6 +17,7 @@ import bizz4 from '../public/bizz4.png'
 import blocks from '../public/blocks.png'
 import bookshelf from '../public/bookshelf-spot.png'
 import TryNotion from "../components/TryNotion"
+import teamwork from '../public/teamwork.png'
 
 export default function Home() {
   return (
@@ -37,10 +38,39 @@ export default function Home() {
     <br className="border-b-2"/>
     <Bta title="Built for endless uses. Across all teams." desc="Notion solves problems common and unique to<br/> every team. These are just a few." btn="Get Notion free" image={bookshelf}/>
 
+    <Bta title="Start with a template.Modify it however you need." desc="Choose from thousands of free, pre-built setups — for work and life." btn="See all Templates" image={blocks} dark='true'/>
     <TryNotion/>
 
-    <Bta title="Start with a template.Modify it however you need." desc="Choose from thousands of free, pre-built setups — for work and life." btn="See all Templates" image={blocks} dark='true'/>
-
+    <Bta title="Used by the world’s most innovative teams" desc="Choose from thousands of free, pre-built setups — for work and life." btn="Read all customer stories" image={teamwork} dark='true'/>
+    {/* customer stories */}
+    <h1 className="text-2xl font-semibold ">Cusomer Stories ➡️</h1>
+        <div className="grid grid-cols-1  md:grid-cols-3 border-b-2 pb-16  pt-8 gap-4 ">
+          <Feedback
+          cmpimg={bizz1}
+          cmpname="Airbnb"
+          desc="Notion is the backbone of our design system. It’s where we store all of our design guidelines, assets, and documentation. It’s also where we collaborate on design projects and keep track of our progress."
+          name="Jen Lam"
+          img={bizz1}
+          position="Design Systems Engineer"
+          />
+           <Feedback
+          cmpimg={bizz1}
+          cmpname="Airbnb"
+          desc="Notion is the backbone of our design system. It’s where we store all of our design guidelines, assets, and documentation. It’s also where we collaborate on design projects and keep track of our progress."
+          name="Jen Lam"
+          img={bizz1}
+          position="Design Systems Engineer"
+          />
+           <Feedback
+          cmpimg={bizz1}
+          cmpname="Airbnb"
+          desc="Notion is the backbone of our design system. It’s where we store all of our design guidelines, assets, and documentation. It’s also where we collaborate on design projects and keep track of our progress."
+          name="Jen Lam"
+          img={bizz1}
+          position="Design Systems Engineer"
+          />
+        </div>
+        <p>hello</p>
     
     </div>
     
