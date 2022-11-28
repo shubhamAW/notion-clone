@@ -29,25 +29,32 @@ export default function Home() {
     <div className='py-4 md:px-12 px-4  '>
       <Header/>
       <Hero/>
+      <div className="border-b-2 pt-20"></div>
      <Business image1={bizz1} image2={sportteamup} title={"Team up without the chaos"} desc={'Connect your teams, projects, and docs in Notion — so you can bust silos and move as one.'} />
+
+     <div className="border-b-2"></div>
 
      <Business image1={bizz2} image2={sportcont} title={"Never ask “What’s the context?” again"} desc={"Stale wikis aren't helpful. Neither are floating docs. In Notion, your daily work and knowledge live side by side — so you never lose context."} />
 
+     <div className="border-b-2"></div>
+
      <Business image1={bizz3} image2={workflow} title={"Build the workflow you want"} desc={"Customize Notion to make it work the way you want it to. Just drag and drop to craft the dashboard, website, doc, or system you need."} />
 
-      <br className="border-b-8"/>
+     <div className="border-b-2"></div>
 
      <Business image1={bizz4} image2={workflow} 
      title={"Benefit from a global ecosystem of creator's tools"} 
      desc={"Get inspiration from thousands of community-made templates, integrations, and events. You'll never want for resources or support."} />
-    <br className="border-b-2"/>
-    <Bta title="Built for endless uses. Across all teams." desc="Notion solves problems common and unique to<br/> every team. These are just a few." btn="Get Notion free" image={bookshelf}/>
 
+    <div className="border-b-2"></div>
+    <Bta title="Built for endless uses. Across all teams." desc="Notion solves problems common and unique to<br/> every team. These are just a few." btn="Get Notion free" image={bookshelf}/>
+    <div className="border-b-2"></div>
     <Bta title="Start with a template.Modify it however you need." desc="Choose from thousands of free, pre-built setups — for work and life." btn="See all Templates" image={blocks} dark='true'/>
-  
+    <div className="border-b-2"></div>
 
     <Bta title="Used by the world’s most innovative teams" desc="Choose from thousands of free, pre-built setups — for work and life." btn="Read all customer stories" image={teamwork} dark='true'/>
     {/* customer stories */}
+    <div className="border-b-2 w-1/3 mb-10"> </div>
     <h1 className="text-2xl font-semibold ">Cusomer Stories ➡️</h1>
         <div className="grid grid-cols-1  md:grid-cols-3 border-b-2 pb-16  pt-8 gap-4 ">
           <Feedback

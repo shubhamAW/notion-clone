@@ -12,7 +12,7 @@ const Hero = () => {
         <div className=' basis-2/3 space-y-2 p-5 '>
             <h1 className='text-4xl md:text-6xl font-bold'>One workSpace.<br/>Every Team.</h1>
             <p>Were more than or table customization <br/> Notion to work the way you do.</p>
-            <button className='border bg-red-400 px-4 py-2 rounded-md font-bold text-white hover:shadow-xl'>Get Notion Free</button>
+            <button className='border bg-red-400 hover:bg-red-500  px-7 py-2 rounded-md font-bold text-white hover:shadow-xl'>Get Notion Free</button>
             <p>Trusted by team at </p>
             <div className='flex flex-wrap'>
                 <div>hello</div>

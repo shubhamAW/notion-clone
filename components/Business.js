@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Business = ({image1 , image2 ,title , desc}) => {
   return (
-    <div className='flex flex-col md:flex-row  md:justify-between mt-20 '>
+    <div className='flex flex-col md:flex-row  md:justify-between my-14 '>
         {/* larger image */}
         <Image src={image1} width={500} height={500} className="basis-2/3 rounded-xl shadow-md hover:shadow-xl" alt='image' />
         {/* smaller image & description */}
