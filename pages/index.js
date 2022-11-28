@@ -6,6 +6,9 @@ import Header from "../components/Header"
 import Hero from "../components/Hero"
 import Bta from "../components/Bta"
 import Feedback from '../components/Feedback'
+import Footer from "../components/Footer"
+import TryNotion from "../components/TryNotion"
+import SocialFooter from "../components/SocialFooter"
 
 import bizz1 from '../public/bizz1.png'
 import sportteamup from '../public/spot-team-up.png'
@@ -16,8 +19,10 @@ import workflow  from '../public/workflow.png'
 import bizz4 from '../public/bizz4.png'
 import blocks from '../public/blocks.png'
 import bookshelf from '../public/bookshelf-spot.png'
-import TryNotion from "../components/TryNotion"
+
 import teamwork from '../public/teamwork.png'
+
+
 
 export default function Home() {
   return (
@@ -39,7 +44,7 @@ export default function Home() {
     <Bta title="Built for endless uses. Across all teams." desc="Notion solves problems common and unique to<br/> every team. These are just a few." btn="Get Notion free" image={bookshelf}/>
 
     <Bta title="Start with a template.Modify it however you need." desc="Choose from thousands of free, pre-built setups — for work and life." btn="See all Templates" image={blocks} dark='true'/>
-    <TryNotion/>
+  
 
     <Bta title="Used by the world’s most innovative teams" desc="Choose from thousands of free, pre-built setups — for work and life." btn="Read all customer stories" image={teamwork} dark='true'/>
     {/* customer stories */}
@@ -70,7 +75,9 @@ export default function Home() {
           position="Design Systems Engineer"
           />
         </div>
-        <p>hello</p>
+        <TryNotion/>
+       <Footer/>
+       <SocialFooter/>
     
     </div>
     
