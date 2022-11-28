@@ -11,7 +11,7 @@ const TryNotion = () => {
         {/* notion log */}
         <Image src={logo} alt='logo' width={100} height={100} className="cursor-pointer " />
         {/* header */}
-        <h1 className='text-5xl font-bold  '>Try Notion Today</h1>
+        <h1 className='text-5xl font-bold text-center '>Try Notion Today</h1>
         {/* description */}
         <p className=' text-gray-600 text-center text-lg' >Get started Free <br/> Add your whole team as your needs grow.</p>
         {/* button */}
